@@ -1,6 +1,6 @@
 # EasyTrack
 
-![EasyTrack Preview](EasyTrack Angular - preview.png)
+![EasyTrack Preview](easytrack-preview.png)
 
 EasyTrack is a simple task management web application built with Angular.
 
