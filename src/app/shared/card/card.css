@@ -1,0 +1,18 @@
+div {
+  border-radius: 6px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+:host {
+  display: block;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 1rem;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  border: 1px solid rgba(255,255,255,0.1);
+}

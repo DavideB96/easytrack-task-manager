@@ -1,0 +1,40 @@
+button {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.7rem 0.85rem;
+  background-color: rgba(255, 255, 255, 0.06);
+  color: #e2e8f0;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  font: inherit;
+  cursor: pointer;
+  width: 100%;
+  min-width: 0;
+  text-align: left;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+button:hover,
+button:active,
+.active {
+  background-color: #6366f1;
+  border-color: #6366f1;
+  color: white;
+}
+
+img {
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+  flex-shrink: 0;
+}
+
+span {
+  margin: 0;
+  padding: 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
